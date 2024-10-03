@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Projeto-lista-de-tarefas-angular": {
+    "ListaDeTarefasAngular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/projeto-lista-de-tarefas-angular",
+            "outputPath": "dist/lista-de-tarefas-angular",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Projeto-lista-de-tarefas-angular:build:production"
+              "buildTarget": "ListaDeTarefasAngular:build:production"
             },
             "development": {
-              "buildTarget": "Projeto-lista-de-tarefas-angular:build:development"
+              "buildTarget": "ListaDeTarefasAngular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -99,6 +99,6 @@
     }
   },
   "cli": {
-    "analytics": "9ac1a429-0bcb-4cfa-b454-cdaf6d8dbab1"
+    "analytics": "476d9ed2-c916-4101-a2fe-b72023249aa9"
   }
 }
